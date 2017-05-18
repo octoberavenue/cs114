@@ -8,9 +8,11 @@ while True:
     if vampire_lower == 'yes':
         print("How old are you?")
         break
-    else:
+    elif vampire_lower== 'no':
         print("Too bad.")
         print("Are you sure you are not a vampire?")
+    else:
+        print("Please enter yes or no.")
 
 age = int(input())
 
